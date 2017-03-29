@@ -55,7 +55,5 @@ document.addEventListener('DOMContentLoaded', () => {
     throw new Error('div-test not found')
   }
 
-  console.log(window.performance.getEntriesByName('test4-duration', 'measure')[0])
-
 })
 export {}
