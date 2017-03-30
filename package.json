@@ -2,9 +2,11 @@
   "name": "pattern-test-2",
   "version": "0.0.1",
   "devDependencies": {
+    "bsp-utils": "github:perfectsense/brightspot-js-utils",
+    "jquery": "^3.2.1",
     "webpack": "^2.3.2"
   },
-  "scripts" : {
-    "build" : "rm -rf dist && node node_modules/webpack/bin/webpack.js"
+  "scripts": {
+    "build": "rm -rf dist && node node_modules/webpack/bin/webpack.js"
   }
 }
